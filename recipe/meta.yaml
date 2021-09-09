@@ -26,12 +26,18 @@ requirements:
 test:
   imports:
     - colorlog
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/borntyping/python-colorlog
   license: MIT
   license_file: LICENSE
+  license_family: MIT
   summary: Log formatting with colors!
+  dev_url: https://github.com/borntyping/python-colorlog
 
 extra:
   recipe-maintainers:
