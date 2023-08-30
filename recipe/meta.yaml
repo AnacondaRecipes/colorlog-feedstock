@@ -10,8 +10,7 @@ source:
   sha256: 59b53160c60902c405cdec28d38356e09d40686659048893e026ecbd589516b1
 
 build:
-  number: 1
-  # trigger: 0
+  number: 2
   script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -33,6 +32,8 @@ about:
   license: MIT
   license_file: LICENSE
   summary: Log formatting with colors!
+  dev_url: https://github.com/borntyping/python-colorlog
+  doc_url: https://github.com/borntyping/python-colorlog
 
 extra:
   recipe-maintainers:
