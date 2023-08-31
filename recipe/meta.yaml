@@ -30,10 +30,12 @@ test:
 about:
   home: https://github.com/borntyping/python-colorlog
   license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: Log formatting with colors!
   dev_url: https://github.com/borntyping/python-colorlog
   doc_url: https://github.com/borntyping/python-colorlog
+  description: Add colours to the output of Python's logging module.
 
 extra:
   recipe-maintainers:
